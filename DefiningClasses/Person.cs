@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DefiningClasses
 {
-    internal class Person
+    class Person
     {
         private string name;
         private int age;
