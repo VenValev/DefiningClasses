@@ -15,5 +15,21 @@ namespace DefiningClasses
 
         }
 
+        public int Year
+        {
+            get { return year; }
+            set { year = value; }
+        }
+        public int Month
+        {
+            get { return year; }
+            set { year = value; }
+        }
+        public int Day
+        {
+            get { return year; }
+            set { year = value; }
+        }
+
     }
 }
