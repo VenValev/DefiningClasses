@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DefiningClasses
@@ -14,6 +15,16 @@ namespace DefiningClasses
         public Family()
         {
             this.familyMembers = new List<Person>();
+        }
+
+        public void AddMember(Person member)
+        {
+            this.familyMembers.Add(member);
+        }
+
+        public Person GetOldestMember()
+        {
+            int maxAge = this.familyMembers.Max(member => member.Age);
         }
 
     }
