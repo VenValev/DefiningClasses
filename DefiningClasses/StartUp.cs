@@ -4,7 +4,7 @@ namespace DefiningClasses
 {
     public class StartUp
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Person person1 = new Person();
             person1.Name = "Peter";
