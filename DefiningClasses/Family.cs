@@ -22,16 +22,10 @@ namespace DefiningClasses
         public void AddMember(Person member)
         {
             this.familyMembers.Add(member);
-            if (member.Age > 30)
-            {
-                this.olderThan30.Add(member);
-            }
+            
         }
         
-        public List<Person> OlderThan30()
-        {
-            return olderThan30;
-        }
+        
 
         public Person GetOldestMember()
         {

@@ -26,7 +26,7 @@ namespace DefiningClasses
 
             //Console.WriteLine($"{oldestPerson.Name} {oldestPerson.Age}");*/
 
-            int n = int.Parse(Console.ReadLine());
+            /*int n = int.Parse(Console.ReadLine());
             List<Person> listOfPeople = new List<Person>();
 
             for (int i = 0; i < n; i++)
@@ -43,7 +43,12 @@ namespace DefiningClasses
             foreach(Person person in sortedListPeople)
             {
                 Console.WriteLine(person.Name + " - " + person.Age);
-            }
+            }*/
+
+            string[] date1 = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] date2 = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            DateModifier d
+
         }
     }
 }
