@@ -40,7 +40,10 @@ namespace DefiningClasses
 
             var sortedListPeople = listOfPeople.Where(p => p.Age > 30).OrderBy(p => p.Name);
 
-
+            foreach(Person person in sortedListPeople)
+            {
+                Console.WriteLine(person.Name + " - " + person.Age);
+            }
         }
     }
 }
