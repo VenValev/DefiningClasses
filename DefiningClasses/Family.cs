@@ -27,8 +27,11 @@ namespace DefiningClasses
                 this.olderThan30.Add(member);
             }
         }
-
         
+        public List<Person> OlderThan30()
+        {
+            return olderThan30;
+        }
 
         public Person GetOldestMember()
         {
