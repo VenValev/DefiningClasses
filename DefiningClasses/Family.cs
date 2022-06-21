@@ -13,7 +13,7 @@ namespace DefiningClasses
 
         public Family()
         {
-            familyMembers = new List<Person>();
+            this.familyMembers = new List<Person>();
         }
 
     }
