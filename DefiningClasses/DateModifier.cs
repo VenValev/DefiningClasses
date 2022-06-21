@@ -38,9 +38,9 @@ namespace DefiningClasses
             set { d1 = DateTime.Parse(Date2); }
         }
 
-        public int ReturningDate(DateTime StartDate, DateTime EndDate)
+        public int ReturningDate()
         {
-            TimeSpan t = StartDate - StartDate;
+            TimeSpan t = DateTime.Parse(Date1) - DateTime.Parse(Date2);
             int d = Math.Abs((int)t.TotalDays);
             return d;
         }
