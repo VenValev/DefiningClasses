@@ -34,13 +34,14 @@ namespace DefiningClasses
         }
         public DateTime EndDate
         {
-            get { return d1; }
-            set { d1 = DateTime.Parse(Date2); }
+            get { return d2; }
+            set { d2 = DateTime.Parse(Date2); }
         }
 
         public int ReturningDate()
         {
-            TimeSpan t = DateTime.Parse(Date1) - DateTime.Parse(Date2);
+            //TimeSpan t = DateTime.Parse(Date1) - DateTime.Parse(Date2);
+            TimeSpan t = StartDate - EndDate;
             int d = Math.Abs((int)t.TotalDays);
             return d;
         }
