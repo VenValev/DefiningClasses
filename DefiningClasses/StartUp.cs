@@ -2,9 +2,9 @@
 
 namespace DefiningClasses
 {
-    internal class StartUp
+    class StartUp
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Person person1 = new Person();
             person1.Name = "Peter";
