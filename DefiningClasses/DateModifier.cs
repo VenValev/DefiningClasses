@@ -15,6 +15,9 @@ namespace DefiningClasses
         {
             this.Date1 = date1;
             this.Date2 = date2;
+            this.StartDate = Convert.ToDateTime(Date1);
+            this.EndDate = Convert.ToDateTime(Date2);
+            
         }
         
         public string Date1
