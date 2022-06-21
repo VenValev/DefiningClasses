@@ -45,8 +45,9 @@ namespace DefiningClasses
                 Console.WriteLine(person.Name + " - " + person.Age);
             }*/
 
-            string d1 = Console.ReadLine();
-            string d2 = Console.ReadLine();
+            string[] d1 = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            string[] d2 = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            
             DateModifier dateModifier = new DateModifier(d1, d2);
 
         }
