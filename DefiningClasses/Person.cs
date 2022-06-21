@@ -11,7 +11,8 @@ namespace DefiningClasses
 
         public Person()
         {
-
+            Name = "No Name";
+            Age = 0;
         }
 
         public Person(string name, int age)
