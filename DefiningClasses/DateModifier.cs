@@ -34,13 +34,15 @@ namespace DefiningClasses
         {
             get { return startDate; }
             //set { startDate = DateTime.Parse(Date1); }
-            set { startDate = Convert.ToDateTime(Date1); }
+            //set { startDate = Convert.ToDateTime(Date1); }
+            set { startDate = value; }
         }
         public DateTime EndDate
         {
             get { return endDate; }
-            set { endDate = Convert.ToDateTime(Date2); }
+            //set { endDate = Convert.ToDateTime(Date2); }
             //set { endDate = DateTime.Parse(Date2); }
+            set { endDate = value; }
         }
 
         public int ReturningDate()
