@@ -6,30 +6,26 @@ namespace DefiningClasses
 {
     internal class DateModifier
     {
-        private int year;
-        private int month;
-        private int day;
+        string date1;
+        string date2;
+        int year1;
+        int month1;
+        int day1;
+        int year2;
+        int month2;
+        int day2;
 
-        public DateModifier()
+
+        DateModifier(string date1, string date2)
         {
-
+            this.date1 = date1;
+            this.date2 = date2;
         }
 
-        public int Year
+        public int Year1
         {
-            get { return year; }
-            set { year = value; }
+            get { return year1; }
+            set { year1 = int.Parse(date1.Split(' ')[0]); }
         }
-        public int Month
-        {
-            get { return year; }
-            set { year = value; }
-        }
-        public int Day
-        {
-            get { return year; }
-            set { year = value; }
-        }
-
     }
 }
