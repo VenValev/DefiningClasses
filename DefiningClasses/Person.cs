@@ -11,9 +11,16 @@ namespace DefiningClasses
 
         public Person()
         {
-            Name = "No Name";
-            Age = 0;
+            Name = "No name";
+            Age = 1;
         }
+
+        public Person(int age)
+        {
+            Name = "No name";
+            Age = age;
+        }
+
 
         public Person(string name, int age)
         {
