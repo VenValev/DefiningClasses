@@ -25,7 +25,7 @@ namespace DefiningClasses
         public string Date2
         {
             get { return date2; }
-            set { date1 = value; }
+            set { date2 = value; }
         }
         public DateTime StartDate
         {
