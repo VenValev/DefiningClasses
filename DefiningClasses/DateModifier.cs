@@ -8,8 +8,8 @@ namespace DefiningClasses
     {
         string date1;
         string date2;
-        DateTime d1;
-        DateTime d2;
+        DateTime startDate;
+        DateTime endDate;
 
         public DateModifier(string date1, string date2)
         {
@@ -29,13 +29,15 @@ namespace DefiningClasses
         }
         public DateTime StartDate
         {
-            get { return d1; }
-            set { d1 = DateTime.Parse(Date1); }
+            get { return startDate; }
+            //set { startDate = DateTime.Parse(Date1); }
+            set { startDate = Convert.ToDateTime(Date1); }
         }
         public DateTime EndDate
         {
-            get { return d2; }
-            set { d2 = DateTime.Parse(Date2); }
+            get { return endDate; }
+            set { endDate = Convert.ToDateTime(Date2); }
+            //set { endDate = DateTime.Parse(Date2); }
         }
 
         public int ReturningDate()
