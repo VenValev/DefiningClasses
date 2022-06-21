@@ -13,8 +13,8 @@ namespace DefiningClasses
 
         public DateModifier(string date1, string date2)
         {
-            this.date1 = date1;
-            this.date2 = date2;
+            this.Date1 = date1;
+            this.Date2 = date2;
         }
         
         public string Date1

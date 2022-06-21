@@ -47,8 +47,8 @@ namespace DefiningClasses
 
             string d1 = Console.ReadLine();
             string d2 = Console.ReadLine();
-            DateTime startDate = DateTime.Parse(d1);
-            DateTime endDate = DateTime.Parse(d2);
+            //DateTime startDate = DateTime.Parse(d1);
+            //DateTime endDate = DateTime.Parse(d2);
 
             DateModifier calc = new DateModifier(d1, d2);
             int n = calc.ReturningDate();
